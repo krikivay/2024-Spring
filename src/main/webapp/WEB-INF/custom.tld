@@ -1,0 +1,16 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>custom tag</short-name>
+
+    <tag>
+        <name>UsersTable</name>
+        <tag-class>ua.karazin.example.customtag.UsersTableTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>users</name>
+            <type>java.util.List</type>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

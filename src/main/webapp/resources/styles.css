@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+    padding-top: 4.2rem;
+    padding-bottom: 4.2rem;
+    background: rgba(0, 0, 0, 0.76);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.myform {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    margin: 0 auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 1000px;
+}
+
+.tx-tfm {
+    text-transform: uppercase;
+}
+
+.mybtn {
+    border-radius: 50px;
+}
+
+.buttons {
+    width: 150px;
+    display: inline-block;
+}
+
+.userName {
+    float: right;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.error {
+    color: #ff0000;
+}
+
+label.required:after {
+    color: red;
+    content: " *";
+}
+
+.select-box {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    max-width: 20em;
+    width: 100%;
+}
+
+.select,
+.label {
+    color: #414141;
+    display: block;
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+.select {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 5px 0;
+    height: 40px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: none transparent;
+    border: 0 none;
+}
+
+.select-box1 {
+    background: #ececec;
+}
+
+.label1 {
+    position: relative;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.open .label::after {
+    content: "▲";
+}
+
+.label::after {
+    content: "▼";
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 15px;
+    border-left: 5px solid #fff;
+}
+
+table {
+    border-spacing: 0;
+    empty-cells: hide;
+}
+
+td {
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 1px solid #F4EEE8;
+    transition: all 0.5s linear;
+}
+
+td:first-child {
+    text-align: left;
+    color: #3D3511;
+    font-weight: bold;
+}
+
+th {
+    padding: 10px 20px;
+    color: #3D3511;
+    border-bottom: 1px solid #F4EEE8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+td:nth-child(even) {
+    background: #F6D27E;
+}
+
+td:nth-child(odd) {
+    background: #D1C7BF;
+}
+
+th:nth-child(even) {
+    background: #F6D27E;
+}
+
+th:nth-child(odd) {
+    background: #D1C7BF;
+}
+
+.round-top {
+    border-top-left-radius: 5px;
+}
+
+.round-bottom {
+    border-bottom-left-radius: 5px;
+}
+
+tr:hover td {
+    background: #D1C7BF;
+    font-weight: bold;
+}

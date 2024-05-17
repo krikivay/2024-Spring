@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <ROLE id='1' name='admin'/>
+  <ROLE id='2' name='user'/>
+  <ROLE id='3' name='super admin'/>
+  <USER id='1' login='admin' password='admin' email='admin@nixsolutions.com' firstName='Ivan'
+    lastName='Ivanov' birthday='1990-02-02' role_id='1'/>
+  <USER id='2' login='petrov' password='123' email='petrov@karazin.student.ua' firstName='Petr'
+    lastName='Petrov' birthday='1999-12-23' role_id='2'/>
+  <USER id='3' login='sidorov' password='777' email='sidorov@mail.ru' firstName='Sidor'
+    lastName='Sidorov' birthday='1981-04-17' role_id='2'/>
+  <USER id='4' login='vasiliev' password='127' email='vasiliev@karazin.com' firstName='Vasya'
+    lastName='Vasiliev' birthday='2003-01-01' role_id='2'/>
+  <USER id='5' login='pupkin' password='321' email='pupkin@gmail.com' firstName='Pupok'
+    lastName='Pupkin' birthday='2000-02-20' role_id='2'/>
+</dataset>
